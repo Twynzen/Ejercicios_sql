@@ -22,7 +22,8 @@ CREATE TABLE pedidos(
     cantidad INT,
     id_cliente INT,
     id_producto INT,
-    FOREIGN KEY (id_cliente) REFERENCES clientes(id_cliente)
+    FOREIGN KEY (id_cliente) REFERENCES clientes(id_cliente),
+    FOREIGN KEY (id_producto) REFERENCES productos (id_producto)
 
 
     );
