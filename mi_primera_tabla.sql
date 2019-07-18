@@ -27,3 +27,12 @@ CREATE TABLE pedidos(
 
 
     );
+
+/*Comando para renombrar una tabla*/
+    ALTER TABLE clientes RENAME usuarios
+/*Comando para renombrar una Columna*/
+    ALTER TABLE usuarios CHANGE telefono celular INT(11)
+    /*Comando para agregar una columna*/
+    ALTER TABLE usuarios ADD COLUMN (direccion VARCHAR(28))
+    /*Comando para borrar una columna*/
+    ALTER TABLE usuarios ADD COLUMN (direccion VARCHAR(28))
