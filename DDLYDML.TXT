@@ -1,0 +1,37 @@
+DDL = LENGUAJE DE DEFINICION DE DATOS
+        -CREATE: Crear
+        -DROP: Borrar
+        -ALTER: Modificar
+DML = LENGUAJE DE MANIPULACION DE DATOS
+        -INSERT: Instar
+        -UPDATE: Actualizar
+        -DELETE: Borrar
+        -SELECT: Seleccionar
+
+Funciones de registro
+           =
+           AND
+           OR
+           <
+           >
+           <=
+           >=
+           <>
+           !=
+           BETWEEN__ AND __
+           LIKE
+           IN
+
+Funciones de Ordenamiento
+
+            Order By
+            ASC
+            DESC
+Funciones de Agregacion
+            Count
+            Sum
+            Max
+            Min
+            Avg
+
+            voy minuto 1:51:22
