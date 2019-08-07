@@ -33,5 +33,9 @@ Funciones de Agregacion
             Max
             Min
             Avg
-
-            voy minuto 1:51:22
+Agrupacion
+            GROUP BY
+Uniones
+            INNER JOIN
+            LEFT JOIN
+            RIGTH JOIN
