@@ -5,5 +5,12 @@ INSERT INTO pedidos (fecha, cantidad, id_cliente, id_producto) VALUES ('2011-04-
 INSERT INTO pedidos (fecha, cantidad, id_cliente, id_producto) VALUES ('2010-02-10', '3', '3', '3');
 INSERT INTO pedidos (fecha, cantidad, id_cliente, id_producto) VALUES ('2010-08-19', '5', '2', '4');
 
-/*Aquí creamos las entidades foraneas para la tabla pedidos*/
+/*Aquí consultamos las entidades foraneas para la tabla pedidos*/
+/*consulta todo*/
 SELECT * FROM usuarios INNER JOIN pedidos ON usuarios.id_cliente = pedidos.id_cliente;
+
+/*se puede filtrar los datos: consulta solo nombre y numero id de producto*/
+SELECT nombre, id_producto INNER JOIN pedidos ON usuarios.id_cliente = pedidos.id_cliente;
+
+/*Prioriza los usuarios y los que no han echo pedidos salen null*/
+SELECT * FROM usuarios LEFT JOIN pedidos ON usuarios.id_cliente = pedidos.id_pedido;
