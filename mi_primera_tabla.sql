@@ -36,3 +36,14 @@ CREATE TABLE pedidos(
     ALTER TABLE usuarios ADD COLUMN (direccion VARCHAR(28))
     /*Comando para borrar una columna*/
     ALTER TABLE usuarios ADD COLUMN (direccion VARCHAR(28))
+
+
+/*Ejemplo de creacion de tabla de registro*/
+CREATE TABLE usuarios(
+    Idusuarios INT (11) NOT NULL AUTO_INCREMENT,
+    PRIMARY KEY (Idusuarios),
+    Nombre VARCHAR(100),
+    Correo VARCHAR(80),
+    Usuario VARCHAR(30),
+    Password VARCHAR(120)
+    );
